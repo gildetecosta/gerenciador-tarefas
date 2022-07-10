@@ -1,0 +1,6 @@
+[tool.isort] # isort ordena em ordem alfabeticas as importações
+profile = "black" 
+line_length = 79 # tamanho das linhas no maximo 79
+
+[tool.black] # black formatador de codigo automatico do python
+line_length = 79
