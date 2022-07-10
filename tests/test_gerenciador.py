@@ -8,7 +8,7 @@ from gerenciador_tarefas.gerenciador import TAREFAS, app
 # definindo uma função de testes
 def test_quando_listar_tarefas_devo_ter_como_retorno_codigo_de_status_200():
     # criando um cliente de testes
-    cliente = TestClient(app)  
+    cliente = TestClient(app)
     resposta = cliente.get(
         "/tarefas"
     )  # o verbo get traz a lista de tarefas que estou solicitando
